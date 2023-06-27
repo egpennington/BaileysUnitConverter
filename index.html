@@ -7,29 +7,30 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
-  <title>Unit Converter</title>
+  <title>Bailey's Metric Unit Converter</title>
 </head>
 <body>
   <div class="container">
     <div class="top-hero">
-        <h1>Metric/Imperial Unit Conversion</h1>
+        <h1>Bailey's Metric/Imperial Unit Conversion</h1>
         <div class="box-1">
-            <p id="input-el">20</p>
+            <input type="number" min="0" id="input-el" autofocus placeholder="0">
+            <!-- <p id="input-el">20</p> -->
         </div>
-        <div><button id="btn-el">Convert <i class="fa-solid fa-rotate"></i></button></div>
+        <div><button id="convertBtn-el">Convert <i class="fa-solid fa-rotate"></i></button></div>
     </div>
 
     <div class="bottom-hero">
         <div class="box box-2">
-            <h3>Length (Feet/Meters)</h3>
+            <h3>Length (Meters/Feet)</h3>
             <p id="length-el">20 feet = 6.096 meters | 20 meters = 65.616 feet</p>
         </div>
         <div class="box box-3">
-            <h3>Volume (Gallons/Liters)</h3>
+            <h3>Volume (Liters/Gallons)</h3>
             <p id="volume-el">20 gallons = 6.096 liters | 20 liters = 65.616 gallons</p>
         </div>
         <div class="box box-4">
-            <h3>Mass (Pounds/Kilograms)</h3>
+            <h3>Mass (Kilograms/Pounds)</h3>
             <p id="mass-el">20 pounds = 6.096 kilos | 20 kilos = 65.616 pounds</p>
         </div>
     </div>

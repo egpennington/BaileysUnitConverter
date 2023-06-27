@@ -21,6 +21,8 @@ body {
 
 .container {
     height: 100vh;
+    max-width: 1000px;
+    margin: auto;
 }
 
 .top-hero {
@@ -144,3 +146,8 @@ body {
       align-items: start;
       justify-content: center;
     }
+
+    p, h3 {
+      font-size: 0.7rem;
+    }
+  }
